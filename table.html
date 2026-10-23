@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 80%;
+            height: auto;
+            
+        }
+        tr,
+        td,
+        th {
+            border: 1px solid black;
+            padding: 8px; 
+            font-size: large;
+        }
+        thead {
+            background-color: rgb(26, 123, 26); 
+            color: white;
+            font-size: large;
+        }
+        tfoot {
+            background-color: rgb(47, 16, 77);
+            color: white;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <table> 
+        <thead>
+            <tr>
+                <th scope="col" id="heard-id">ID</th>
+                <th scope="col" id="heard-name">NAME</th>
+                <th scope="col" id="heard-sex">SEX</th>
+                <th scope="col" id="heard-bod">BOD</th>
+                <th scope="col" id="heard-address">ADDRESS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td headers="heard-id">10994</td>
+                <td headers="heard-name">sakana</td>
+                <td headers="heard-sex">F</td>
+                <td headers="heard-bod">27-December-2008</td>
+                <td headers="heard-address">Kampot</td>
+            </tr>
+            <tr>
+                <td headers="heard-id">10995</td>
+                <td headers="heard-name">Sina</td>
+                <td headers="heard-sex">F</td>
+                <td headers="heard-bod">06-November-2010</td>
+                <td headers="heard-address">Kampot</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+            <th scope="row">
+                <td >Total </td>
+                <td >2 ID</td>
+                <td>2 name</td>
+            </th>
+            </tr>
+        </tfoot>
+    </table> 
+</body>
+</html>
